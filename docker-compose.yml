@@ -1,0 +1,8 @@
+version: '3'
+services:
+  cards:
+    build: .
+    volumes:
+      - .:/app
+    # command: iex -S mix
+    command: bash

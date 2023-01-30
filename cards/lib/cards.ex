@@ -67,4 +67,8 @@ defmodule Cards do
     |> Cards.shuffle()
     |> Cards.deal(hand_size)
   end
+
+  def hello do
+    "hello world from a container!"
+  end
 end
